@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:5%;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-img{
+    border-radius:50px;
+}
+.social{
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  background-color:hsl(0, 0%, 20%);
+  border: none;
+  width: 30%;
+  font-weight: normal;
+}
